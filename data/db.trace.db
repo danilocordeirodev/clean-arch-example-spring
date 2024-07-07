@@ -1,0 +1,6 @@
+2024-07-07 18:40:52.345147-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS `users`([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS `users`( [42001-224]
+2024-07-07 18:44:08.980602-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS `users`([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS `users`( [42001-224]
