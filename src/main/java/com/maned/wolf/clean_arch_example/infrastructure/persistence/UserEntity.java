@@ -1,13 +1,21 @@
-package com.maned.wolf.clean_arch_example.model;
+package com.maned.wolf.clean_arch_example.infrastructure.persistence;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Table;
 
-public class User {
+@Table("USER")
+public class UserEntity {
   @Id
   private Long id;
   private String username;
   private String hashedPassword;
   private String email;
+
+  public UserEntity(String username, String hashedPassword, String email) {
+    this.username = username;
+    this.hashedPassword = hashedPassword;
+    this.email = email;
+  }
 
   public Long getId() {
     return id;
